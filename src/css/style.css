@@ -1,0 +1,52 @@
+/*  */
+
+:root{
+    --color-Darkblue:#0A1931;
+    --color-lightcyan:#B3CFE5;
+    --color-cyan:#4A7FA7;
+    --color-blue:#1A3D63;
+    --color-White:#F6FAFD;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--color-lightcyan)
+    
+}
+header{
+    background: var(--color-blue);
+    color: var(--color-lightcyan);
+    font-family:'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+}
+nav ul{
+    background: var(--color-cyan);
+    display: flex;
+    align-items: center;
+    max-width: 1900; 
+    padding: 10px;
+    gap: 30px;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight:700;
+}
+.logo span{
+    color:var(--btn-color);
+    padding: 10px;
+}
+main{
+    width: 1000px;
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+}

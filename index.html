@@ -3,34 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./src/assets/icons8-gato-64.png">
     <title>My Pet | Tudo para o seu Pet</title>
+    <link rel="icon" href="./src/assets/PageIcon.png">
     <!-- CSS EXTERNO -->
      <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
     <header>
-        <h1 id="Logo">My Pet</h1> 
-        <p>Procure oque seu pet precisa aqui:<input type="text"></p>
-        <p>Entre ou cadastre-se</p>
+        <h1 id="logo">My Pet</h1> 
+        
+        <div>
+            <label for="busca">Busca</label>
+            <input type="text" id="busca" placeholder="Procure o que seu pet precisa aqui!">
+        </div>
+    
+        <a href="./src/pages/cadastro.html" id="cadastro">Entre ou cadastre-se</a>
 
         <div class="carrinho">
-            <span id="carrinho-contador">Itens:0</span>
+            <span id="carrinho-contador">Carrinho: 0</span>
         </div>
     </header>
     <nav>
-            <ul>
-                <li><a href="a">Animais</a></li>
-                <li><a href="a">Produtos</a></li>
-                <li><a href="a">Contato</a></li>
-                <li><a href="a">Atendimento</a></li>
-            </ul>
-        </nav>
+        <ul>
+            <li><a href="./src/pages/Animais.html">Animais</a></li>
+            <li><a href="./src/pages/Produtos.html">Produtos</a></li>
+            <li><a href="./src/pages/Contato.html">Contato</a></li>
+            <li><a href="./src/pages/Atendimento.html">Atendimento</a></li>
+        </ul>
+    </nav>
+    <div>
+        <p>'div temporaria para colocar banner'</p>
+    </div>
     <main>  
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex facere at libero officiis iure odit,
-        id enim est alias quae illum corporis adipisci, placeat neque aperiam pariatur, nobis itaque quod.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex facere at libero officiis iure odit,
-        id enim est alias quae illum corporis adipisci, placeat neque aperiam pariatur, nobis itaque quod.</p>
+        <section class="card">
+            <div>
+                <img src="./src/assets/RacaoCachorro.png" alt="Promoção Ração" class="img">
+            </div>
+            <div class="InformacaoCard">
+                <h2>Dog Chow para cachorros</h2>
+                <p>Ração para pequeno porte, nutrição reforçada</p>
+                <button>Comprar agora</button>
+            </div>
+        </section>
+        <section class="card">
+            <div>
+                <img src="./src/assets/RacaoCachorro.png" alt="Promoção Ração" class="img">
+            </div>
+            <div class="InformacaoCard">
+                <h2>Dog Chow para cachorros</h2>
+                <p>Ração para pequeno porte, nutrição reforçada</p>
+                <button>Comprar agora</button>
+            </div>
+        </section>
+        <section class="card">
+            <div>
+                <img src="./src/assets/RacaoCachorro.png" alt="Promoção Ração" class="img">
+            </div>
+            <div class="InformacaoCard">
+                <h2>Dog Chow para cachorros</h2>
+                <p>Ração para pequeno porte, nutrição reforçada</p>
+                <button>Comprar agora</button>
+            </div>
+        </section>
+        <section class="card">
+            <div>
+                <img src="./src/assets/RacaoCachorro.png" alt="Promoção Ração" class="img">
+            </div>
+            <div class="InformacaoCard">
+                <h2>Dog Chow para cachorros</h2>
+                <p>Ração para pequeno porte, nutrição reforçada</p>
+                <button>Comprar agora</button>
+            </div>
+        </section>
     </main>
 </body>
 </html>

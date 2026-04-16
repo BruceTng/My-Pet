@@ -1,52 +1,92 @@
-/*  */
-
+/* Variaveis */
 :root{
-    --color-Darkblue:#0A1931;
+    --color-darkblue:#0A1931;
     --color-lightcyan:#B3CFE5;
     --color-cyan:#4A7FA7;
     --color-blue:#1A3D63;
-    --color-White:#F6FAFD;
+    --color-white:#F6FAFD;
+    --color-tan:#D5B893;
+    --color-slategray:#617891;
+    --color-coffe:#6F4D38;
+    --color-caputmortuum:#632024;
 }
 *{
-    margin:0;
-    padding:0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
-
 body{
-    background: var(--color-lightcyan)
-    
+    background-color: var(--color-white);
+    height: 100vh;
+}
+#logo{
+    font-size:35px;
 }
 header{
-    background: var(--color-blue);
-    color: var(--color-lightcyan);
-    font-family:'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 11%;
+    padding: 20px;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 5%;
+}
+header a{
+    color: var(--color-white);
+}
+header a:hover{
+    color: var(--color-lightcyan);
+}
+nav{
+    background-color: var(--color-cyan);
+    color: var(--color-lightcyan);
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:11%;
+    padding:20px;
+    justify-content: space-between;
+    align-items: center;
+    height:6%;
 }
 nav ul{
-    background: var(--color-cyan);
-    display: flex;
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-between;
     align-items: center;
-    max-width: 1900; 
-    padding: 10px;
-    gap: 30px;
+    list-style:none;
+    padding:100px;
 }
-
-.logo{
-    font-size: 1.5rem;
-    font-weight:700;
+nav ul li a{
+    color: var(--color-white);
+    text-decoration: none;
 }
-.logo span{
-    color:var(--btn-color);
-    padding: 10px;
+nav ul li a:hover{
+    color:var(--color-blue)
 }
 main{
-    width: 1000px;
-    display:flex;
+    display: flex;
     justify-content: center;
-    gap: 20px;
-    padding: 0 20px;
+}
+.card{
+    display:flex;
+    flex-direction:column;
+    margin:30px;
+    padding:5px;
+    align-items: center;
+    border: 1px solid #1A3D63;
+    border-radius:20px;
+}
+.img{
+   height:200px;
+   width:200px;
+}
+.InformacaoCard{
+    max-width:100%;
+    padding:0px 0px 0px 10px;
 }

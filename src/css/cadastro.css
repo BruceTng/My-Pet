@@ -1,0 +1,68 @@
+/* Variaveis */
+:root{
+    --color-darkblue:#0A1931;
+    --color-lightcyan:#B3CFE5;
+    --color-cyan:#4A7FA7;
+    --color-blue:#1A3D63;
+    --color-White:#F6FAFD;
+    --color-tan:#D5B893;
+    --color-slategray:#617891;
+    --color-coffe:#6F4D38;
+    --color-caputmortuum:#632024;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--color-white);
+    height: 100vh;
+}
+header{
+    background-color: var(--color-blue);
+    color: var(--color-White);
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    justify-content:space-between;
+    padding: 10px 20px 10px 20px;
+    align-items: center;
+}
+header a{
+    color:var(--color-White);
+    text-decoration: none;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:35px;
+}
+main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:30px;
+}
+.slogan{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.slogan h1{
+    font-size:55px;
+}
+.slogan h2{
+    font-size:13px;
+    margin-top:-10px;
+}
+form{
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+}
+form button{
+    margin-top:20px;
+}
